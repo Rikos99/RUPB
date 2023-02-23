@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Ubuntu:wght@300&display=swap');
+body {
+    font-family: 'Ubuntu', sans-serif; /* https://coolors.co/000000-236192-ea7600-565656-acacac-e5e5e5-eaeaea-ffffff */
+    background-color: #E5E5E5;
+    margin:0;
+    z-index: -1;
+}
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+header {
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 10px;
+    background-color: #C9C9C9;
+    border: #ACACAC solid 2px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+.logo {
+    margin-right: 5px;
+    margin: 0;
+}
+.navigace{
+    font-size: 18pt;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    position: relative;
+    display: inline-block;
+    padding-right: 40px;
+    margin-right: 10px;
+}
+nav ul ul li {
+    display: block;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+nav ul ul li:nth-child(even) {
+    background-color: #979797;
+    width: 79.5%;
+}
+nav ul ul {
+    display: none;
+    width: 150%;
+    background-color: #ACACAC;
+    font-size: 15pt;
+    padding-left: 0px;
+    margin-right: 0;
+    border-left: black 1px solid;
+}
+nav li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 100;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+p {
+    font-size: 16pt;
+    margin-left: 10px;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+#konami {
+    color:black;
+}
+footer a {
+    color: black;
+}
+#meme {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    visibility: hidden;
+    position: fixed;
+    width: 640px;
+}
+.meme_img {
+    width: 640px;
+    border: solid black 2px;
+}
+.meme_button {
+    border: none;
+    color: black;
+    background-color: #ACACAC;
+    padding: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+#info {
+    display: block;
+    margin-top: 10px;
+    visibility: hidden;
+    position: fixed;
+}
+#render {
+    display: block;
+    margin-top: 10px;
+    visibility: hidden;
+    position: fixed;
+}
+.info_button {
+    border: none;
+    color: black;
+    background-color: #ACACAC;
+    padding: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.info_button_remove {
+    border: none;
+    color: black;
+    background-color: #ACACAC;
+    padding: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+.render_button {
+    border: none;
+    color: black;
+    background-color: #ACACAC;
+    padding: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.render_button_remove {
+    border: none;
+    color: black;
+    background-color: #ACACAC;
+    padding: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+.render_img {
+    margin: 20px 0 0 20px;
+}
+.minecraft_center {
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: center;
+}
